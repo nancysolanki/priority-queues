@@ -1,11 +1,7 @@
 #include<queue>
 #include<vector>
 vector<int> mergeKSortedArrays(vector<vector<int>*> input){
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * Return the output.
-     * Taking input and printing output is handled automatically.
-     */
+  
     priority_queue<int,vector<int>,greater<int>> pq;
     for(int i=0;i<input.size();i++)
     {
